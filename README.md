@@ -2,8 +2,8 @@
 
 ## At Heroku
 - Main application: add domain including the "www" (www.example.com)
-- Subdomains (other application): add domain excluding the "www" (api.example.com)
-- For both of these application take note of the given DNS Targets
+- Subdomains (other Heroku application): add domain excluding the "www" (api.example.com)
+- For both of these applications take note of the given DNS Targets
 
 ## At GoDaddy
 Add the following CNAME rows:
