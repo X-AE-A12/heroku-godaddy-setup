@@ -7,8 +7,8 @@
 
 ## At GoDaddy
 Add the following CNAME rows:
-- Main application: "www" && the DNS Target (replace the default "@" row and its value)
-- Subdomain: "*" && the DNS Target
+- Main application: "www" & the DNS Target (replace the default "@" row and its value)
+- Subdomain: "api" & the DNS Target
 - Set TTL at 600 seconds for testing, once in operation back to default (or not)
 - Add forwarding at the bottom of the page: use the https protocol and provide the full domain name (www.example.com). Leave the other options as-is. 
  
